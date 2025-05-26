@@ -1,40 +1,40 @@
-# [Introduction to Vue.js 3 Course](https://frontendmasters.com/courses/vue-3/) Materials
+# [Curso de Introducción a Vue.js 3](https://frontendmasters.com/courses/vue-3/) Materiales
 
-Author: Sarah Drasner
+Autora: Sarah Drasner
 
-FYI The previous version [Vue 2 course is available here.](https://frontendmasters.com/courses/vue/)
+Para su información, la versión anterior del curso [Vue 2 está disponible aquí.](https://frontendmasters.com/courses/vue/)
 
-This repo houses the materials and resources for the Introduction to Vue.js course on Frontend Masters.
+Este repositorio contiene los materiales y recursos para el curso de Introducción a Vue.js en Frontend Masters.
 
-Most of the materials for the course are outlined below, but there are also directories housed here of very basic examples of some of the techniques we will cover so that students don't have to spend a lot of time researching in order to get started. It is recommended that students use CodePen to create work for the duration of the course, as we'll use preprocessors like SCSS as well as Babel for ES6, and resources like Vue.js, both prod and dev versions, codepen makes it easy to do so without time devoted to setup. If you like, you can also scroll to the CodePen collection section and fork one of the existing pens in those collections, they are comprehensive. There are more true-to-life build process examples, in the VueCLI, Nuxt, and Vuex Resource Sections. It's encouraged to watch the lecture to learn how to set up the builds yourself, though.
+A continuación, se proporciona un resumen de la mayoría de los materiales para el curso. También se incluyen directorios de ejemplos básicos de algunas de las técnicas que cubriremos, para que los estudiantes no tengan que dedicar mucho tiempo a la investigación antes de empezar. Se recomienda que los estudiantes utilicen CodePen para realizar sus trabajos durante el curso, ya que utilizaremos preprocesadores como SCSS y Babel para ES6, y recursos como Vue.js, tanto en versiones de producción como de desarrollo. CodePen facilita esto sin necesidad de dedicar tiempo a la configuración. Si lo prefieres, también puedes ir a la sección de colecciones de CodePen y hacer fork a una de los bolígrafos existentes en esas colecciones, son exhaustivos. Existen ejemplos más realistas del proceso de compilación, en las secciones de recursos de VueCLI, Nuxt y Vuex. Se recomienda ver la conferencia para aprender cómo configurar las compilaciones por ti mismo.
 
-- Here are the [Vue chrome devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
-- Here are the [Vue 3 beta chrome devtools](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg)
-- Here is the codepen debugger [chrome extension](https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak)
-- Here is [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) for VS Code
-- Here are the snippets I'll be using [vue vscode snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
-- Here is my [Vue Extension Pack for VS Code](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-extensionpack)
-- Here is the [hub tool](https://hub.github.com/) I use to work with GitHub from the command line
+- Aquí están las [herramientas de desarrollo de Vue para Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
+- Aquí están las [herramientas de desarrollo de Vue 3 beta para Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/ljjemllljcmogpfapbkkighbhhppjdbg)
+- Aquí está la extensión de depuración de CodePen para [Chrome](https://chrome.google.com/webstore/detail/codopen/agnkphdgffianchpipdbkeaclfbobaak)
+- Aquí está [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) para VS Code
+- Aquí están los fragmentos de código que usaré [fragmentos de vue para vscode](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
+- Aquí está mi [Paquete de extensión Vue para VS Code](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-extensionpack)
+- Aquí está la [herramienta hub](https://hub.github.com/) que uso para trabajar con GitHub desde la línea de comandos
 
-# Materials for Vue 3 Course
+# Materiales para el curso de Vue 3
 
-## Slides:
+## Diapositivas:
 
-**All slides have password `!vue!`**
+**Todas las diapositivas tienen la contraseña `!vue!`**
 
-- [Intro to Vue Intro](https://slides.com/sdrasner/deck?token=gsSM2n2V)
-- [Intro to Vue 1: Directives & Data Rendering](https://slides.com/sdrasner/intro-to-vue3-1?token=n3Yja_t9)
-- [Intro to Vue 2: Methods, Computed, Watchers](https://slides.com/sdrasner/intro-to-vue3-2?token=jgTfDndR)
-- [Intro to Vue 3: Components and Slots](https://slides.com/sdrasner/intro-to-vue-3-3?token=NLsRwMvr)
-- [Intro to Vue 4: Vue CLI and Nuxt](https://slides.com/sdrasner/intro-to-vue-3-4?token=0IQFDZvK)
-- [Intro to Vue 5: Animation](https://slides.com/sdrasner/intro-to-vue-3-5?token=YXhIwtpW)
-- [Intro to Vue 6: Composition API and Custom Directives](https://slides.com/sdrasner/intro-to-vue-3-6?token=yidUZcRL)
-- [Intro to Vue 7: Vuex](https://slides.com/sdrasner/intro-to-vue-3-7?token=YvT8ZUzV)
+- [Introducción a Vue Intro](https://slides.com/sdrasner/deck?token=gsSM2n2V)
+- [Introducción a Vue 1: Directivas y representación de datos](https://slides.com/sdrasner/intro-to-vue3-1?token=n3Yja_t9)
+- [Introducción a Vue 2: Métodos, Computados, Observadores](https://slides.com/sdrasner/intro-to-vue3-2?token=jgTfDndR)
+- [Introducción a Vue 3: Componentes y Slots](https://slides.com/sdrasner/intro-to-vue-3-3?token=NLsRwMvr)
+- [Introducción a Vue 4: Vue CLI y Nuxt](https://slides.com/sdrasner/intro-to-vue-3-4?token=0IQFDZvK)
+- [Introducción a Vue 5: Animación](https://slides.com/sdrasner/intro-to-vue-3-5?token=YXhIwtpW)
+- [Introducción a Vue 6: API de composición y directivas personalizadas](https://slides.com/sdrasner/intro-to-vue-3-6?token=yidUZcRL)
+- [Introducción a Vue 7: Vuex](https://slides.com/sdrasner/intro-to-vue-3-7?token=YvT8ZUzV)
 
-_This course has been updated in 2020 for the Vue3 release, older materials for Vue 2 course available in the vue2-resources directory._
+_Este curso se actualizó en 2020 para el lanzamiento de Vue3, los materiales más antiguos para el curso de Vue 2 están disponibles en el directorio vue2-resources._
 
-## License
+## Licencia
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Licencia Creative Commons](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+Este trabajo está licenciado bajo una [Licencia Internacional Creative Commons Atribución-NoComercial-CompartirIgual 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
